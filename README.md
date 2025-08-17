@@ -106,4 +106,21 @@ Some of the insights that can be derived include:
   - Total revenue, total orders, and total pizzas sold update dynamically.
   - Average order value can be compared across different months.
 
- 
+ ## Deliverables
+
+This repository includes the following project components:
+
+- *SQL Output Report* (pizza_sales_report.docx)  
+  - Word document containing the SQL outputs generated from the dataset.  
+  - Includes results for revenue, order trends, category/size analysis, and product performance.  
+
+- *Excel Dataset* (pizza_sales_data.xlsx)  
+  - The original dataset used for analysis.  
+  - Imported into both SQL (for querying) and Excel (for dashboard creation).  
+
+- *Excel Dashboard* ()  
+  - Interactive dashboard built using pivot tables, charts, and slicers.  
+  - Provides dynamic insights by filtering sales across different months and categories.  
+
+- *Screenshots* (pizza_dashboard.png)  
+  - Preview images of the Excel dashboard for quick reference.
