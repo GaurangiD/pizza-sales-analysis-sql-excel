@@ -1,5 +1,20 @@
 # Pizza Sales Analysis (SQL and Excel Dashboard)
 
+## Table of Contents  
+
+- [Overview](#overview)  
+- [Problem Statement](#problem-statement)  
+- [Dataset](#dataset)  
+- [Tools and Technologies](#tools-and-technologies)  
+- [Methodology](#methodology)  
+- [Key Insights](#key-insights)  
+- [Deliverables](#deliverables)  
+- [Dashboard](#dashboard)  
+- [Dashboard Preview](#dashboard-preview)  
+- [How to Run the Project](#how-to-run-the-project)  
+- [Conclusion](#conclusion)  
+- [Future Enhancements](#future-enhancements)
+
 ## Overview
 This project analyzes pizza sales data to identify key trends, customer preferences, and product performance.  
 The analysis is supported with various charts to provide actionable insights for decision-making.
@@ -110,17 +125,65 @@ Some of the insights that can be derived include:
 
 This repository includes the following project components:
 
-- *SQL Output Report* (pizza_sales_report.docx)  
+- *SQL Output Report* (PIZZA SALES SQL QUERIES.docx)  
   - Word document containing the SQL outputs generated from the dataset.  
   - Includes results for revenue, order trends, category/size analysis, and product performance.  
 
-- *Excel Dataset* (pizza_sales_data.xlsx)  
+- *Excel Dataset* (pizza_sales.csv)  
   - The original dataset used for analysis.  
   - Imported into both SQL (for querying) and Excel (for dashboard creation).  
 
-- *Excel Dashboard* ()  
+- *Excel Dashboard* (pizza_sales_analysis.xlsx)  
   - Interactive dashboard built using pivot tables, charts, and slicers.  
   - Provides dynamic insights by filtering sales across different months and categories.  
 
 - *Screenshots* (pizza_dashboard.png)  
   - Preview images of the Excel dashboard for quick reference.
+
+## Dashboard  
+An interactive Excel dashboard was created to visualize the results of the analysis.  
+- The dashboard includes slicers that allow filtering by month.  
+- Key metrics such as total revenue, order count, and top-performing pizzas update dynamically.  
+- Visual charts provide insights into sales trends and customer preferences.  
+
+### Dashboard Preview  
+![Pizza Sales Dashboard](pizza_dashboard.png)
+
+## How to Run the Project  
+
+Follow these steps to explore the project files and dashboard:  
+
+1. *Clone the repository*  
+   ```bash
+   git clone https://github.com/your-username/pizza-sales-analysis-sql-excel.git
+ 2. Open the dataset
+File: pizza_sales.csv
+Explore the raw sales data before analysis.
+
+3.Check SQL output
+File: PIZZA SALES SQL QUERIES.docx
+Contains the SQL query results that validate the analysis.
+
+4. Open the Excel dashboard
+File: pizza_sales_analysis.xlsx
+Use the slicers to filter by month.
+Observe how revenue, order counts, and top pizzas update dynamically.
+
+## Conclusion  
+This project demonstrates how SQL and Excel can be used together to analyze sales data effectively.  
+- SQL was used to query and validate insights.  
+- Excel enabled the creation of an interactive dashboard with slicers for monthly trends.  
+- The analysis helped identify revenue patterns, customer preferences, and product performance.  
+
+Overall, this project highlights how combining SQL and Excel provides actionable insights for better decision-making.  
+
+## Future Enhancements  
+- Automate SQL queries for real-time reporting.  
+- Connect Excel directly to a live database for dynamic updates.  
+- Extend the dashboard to include customer segmentation and regional analysis.  
+- Build a Power BI or Tableau version for advanced visualization.
+
+##Author
+GAURANGI DANGAT 
+Aspiring Data Analyst 
+gaurangidangat07@gmail.com
